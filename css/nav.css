@@ -1,33 +1,23 @@
-
-
-.nav{
+.nav {
 	display: flex;
 	justify-content: space-around;
 }
 
-.menu{
+.menu {
 	display: none;
-
 }
 
-.nav a{
+.nav a {
 	color: black;
 }
-.nav a :hover{
- text-decoration: none;
+.nav a :hover {
+	text-decoration: none;
 	color: black;
 }
 
-
-@media screen and (min-width:800px) {
-
-	.menu{
+@media screen and (min-width: 800px) {
+	.menu {
 		display: flex;
 		align-items: center;
 	}
-
 }
-
-
-
-

@@ -1,0 +1,149 @@
+.desktop_articles{
+	visibility: hidden;
+}
+
+
+h2{
+	margin-top: 10px;
+	padding-left: 170px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: #162355
+
+}
+h5{
+	padding-top: 10px;
+	color: #162355 ;
+}
+.desktop_container{
+	display: flex;
+	justify-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    height: 40vh;
+    overflow: auto;
+    flex-direction: row;
+		margin: 0 auto;
+		column-gap: 20px;
+		border: 1px solid lightslategrey;
+		border-left: none;
+		border-bottom: none;
+		border-right: none;
+
+
+}
+.box{
+		width: 400px;
+    height: 250px;
+    margin: 5px;
+
+
+
+}
+span{
+	color: gray;
+}
+.box_two{
+	padding-left: 10px;
+	border: 1px solid lightslategrey;
+	border-top: none;
+		border-bottom: none;
+		border-right: none;
+
+}
+.box_one{
+	background-image: url(https://pixabay.com/get/g734a058b34ec8a5ae2c51d3a39b11fdefc5f130f00b48240bbe14657f7292448fa4c93e041711b3c9948360f31663db71aa88c860773cb7b36ed6107a60cebff_1920.jpg);
+
+
+	text-align: justify;
+	font-size: 20px;
+	color:white;
+}
+.box_one:hover{
+	opacity: 50%;
+}
+.box_one p{
+	margin-top: 115px;
+}
+
+.box_two div{
+	font-weight: bold;
+	color: #162355;
+}
+
+.opinion{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 65%;
+	height: 60vh;
+	overflow: auto;
+	flex-direction: row;
+	margin: 0 auto ;
+}
+.opinion_box{
+	width: 300px;
+    height: 400px;
+		margin: 10px;
+		border: 1px solid lightslategrey;;
+		border-bottom: none;
+		border-left: none;
+
+}
+.opinion_box img{
+	width: 150px;
+	padding-left: -50px;
+
+}
+
+.desktop_sport{
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 75%;
+   margin: 0 auto;
+    height: 50vh;
+    overflow: auto;
+    flex-direction: row;
+		border: 1px solid lightslategray;
+		border-bottom: none;
+		border-left: none;
+	border-right: none;
+
+}
+.sport_box{
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+
+}
+.sport__box{
+	width: 200px;
+}
+.sport__box img{
+	height: 100px;
+
+}
+.sportBox{
+	color: #162355;
+	font-weight: bold;
+	margin-left: 50px;
+	border: 1px solid  lightslategray;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	padding-left: 20px;
+}
+@media screen and (min-width:800px){
+	.desktop_articles{
+		visibility: visible;
+	}
+
+}

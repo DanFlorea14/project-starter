@@ -5,177 +5,199 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" href="./css/reboot.css" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="stylesheet" href="./css/nav.css" />
-		<link rel="stylesheet" href="./css/desktop.css" />
-		<link rel="stylesheet" href="./css/footer.css" />
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/hamburger.css">
 
 		<title>Postasu'</title>
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="nav">
-				<div class="log">
-					<img src="assets/logo.png" alt="" />
-				</div>
-				<div class="menu"><a href="HTML/sport.html">Sport</a></div>
-				<div class="menu"><a href="HTML/politics.html">Politics</a></div>
-				<div class="menu"><a href="HTML/travel.html">Travel</a></div>
-				<div class="menu"><a href="HTML/food.html">Food</a></div>
-			</div>
-		</div>
+		<section class="container">
+      <nav class="navigation flex">
+        <img class="logo" src="./assets/logo.png" alt="" />
 
-		<div class="image">
-			<div>
-				<article class="image sport">
-					<a href="HTML/sport.html"
-						><img
-							src="https://pixabay.com/get/g033fad0ba7c439a4dd3bea871f7dd2914b9a201f1c0a7efce091f54a0cf7d7fc95e422ab4867bd8b9f38be53354579b85c895eb6c294608c9ddb495f8b653dc0_1920.jpg"
-							alt=""
-					/></a>
-				</article>
-			</div>
-			<div>
-				<article class="image politics">
-					<a href="HTML/politics.html"
-						><img
-							src="https://pixabay.com/get/g2e35a28fbd4a314b57cc6e57e342be2feb53368bed808236d16c3409a8414e91fcfd39254f1b989e63b13801be90aadd3318669d4b05a7578593ce526cb2abab_1920.jpg"
-							alt=""
-					/></a>
-				</article>
-			</div>
-			<div>
-				<article class="image food">
-					<a href="HTML/food.html"
-						><img
-							src="https://pixabay.com/get/gaad12b03ab18ea66d73a7beb15ab518a6c37485d3899720b7226d5988ff433f7e8d9df45c578378899529bec5a310c36ba0755dc46341582a40f9a2d568071b9_1920.jpg"
-							alt=""
-					/></a>
-				</article>
-			</div>
-			<div>
-				<article class="image travel">
-					<a href="HTML/travel.html"
-						><img
-							src="https://pixabay.com/get/gd74f4c2b16066aeb456b684f3ee2d43cfb97fb2db334859b9001ed35e3e4c6e90efd6c4ec2157386559065c2586ca5389ca93a0c61136fde0218db5ad9e751f1_1920.jpg"
-							alt=""
-					/></a>
-				</article>
-			</div>
-		</div>
+        <button
+          class="mobile-nav__toggle"
+          aria-controls="primaryNav"
+          aria-expanded="false">
+          <span class="sr-only">Menu</span>
+        </button>
 
-		<div class="desktop_articles">
-			<h2>Headlines</h2>
-			<div class="desktop_container">
-				<div class="box box_one">
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-						possimus ipsa nisi perspiciatis quisquam minima!
-					</p>
-					<span>10/10/2030</span>
+        <ul
+          id="primaryNav"
+          class="main__navigation flex spaced"
+          data-visible="false">
+          <li class="navigation__item active">
+            <a href="#"> Sport</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Politics</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Culture</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Travel</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Lifestyle</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+		<div class="article_container">
+			<aside>
+				<img src="./assets/ezgif.com-crop.gif" alt="">
+			</aside>
+			<article>
+				<img src="./assets/text.gif" alt="">
+			</article>
+			<h2 class="headlines_heading">Headlines</h2>
+			<div class="box headlines">
+				<div >
+					<a href="#"><img src="./assets/car-4721367.svg" alt=""></a>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+					<span>10/10/2030 Monday</span>
 				</div>
-				<div class="box box_two">
-					<div>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-						Perspiciatis, error? <br /><span>10/10/2030</span>
-					</div>
-					<div>
-						Lorem ipsum dolor sit amet. <br />
-						<span>10/10/2030</span>
-					</div>
-					<div>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br /><span
-							>10/10/2030</span
-						>
-					</div>
+				<div class="ver"></div>
+				<div>
+					<a href="#"><img src="./assets/deer-3275594_640.jpg" alt=""></a>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+					<span>10/10/2030 Monday</span>
 				</div>
+
 			</div>
-			<h2>Politics</h2>
-			<div class="opinion">
-				<div class="opinion_box">
-					<img
-						src="https://pixabay.com/get/g2e35a28fbd4a314b57cc6e57e342be2feb53368bed808236d16c3409a8414e91fcfd39254f1b989e63b13801be90aadd3318669d4b05a7578593ce526cb2abab_1920.jpg"
-						alt=""
-					/>
-					<h5>Lorem, ipsum dolor.</h5>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa,
-						perferendis? Est culpa sed recusandae quo nisi ipsam dolorem
-						deserunt amet.
-					</p>
-					<span>10/102030</span>
-				</div>
-				<div class="opinion_box">
-					<img
-						src="https://pixabay.com/get/g2e35a28fbd4a314b57cc6e57e342be2feb53368bed808236d16c3409a8414e91fcfd39254f1b989e63b13801be90aadd3318669d4b05a7578593ce526cb2abab_1920.jpg"
-						alt=""
-					/>
-					<h5>Lorem, ipsum dolor.</h5>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quae
-						fuga expedita quidem asperiores quas repellat adipisci aut corporis
-						quia.
-					</p>
-					<span>10/102030</span>
-				</div>
-				<div class="opinion_box">
-					<img
-						src="https://pixabay.com/get/g2e35a28fbd4a314b57cc6e57e342be2feb53368bed808236d16c3409a8414e91fcfd39254f1b989e63b13801be90aadd3318669d4b05a7578593ce526cb2abab_1920.jpg"
-						alt=""
-					/>
-					<h5>Lorem, ipsum dolor.</h5>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-						nobis temporibus officia commodi placeat, quas dolorum id illum vel
-						quisquam.
-					</p>
-					<span></span>
-				</div>
-			</div>
+			<article>
+				<img src="./assets/text.gif" alt="">
+			</article>
+
 			<h2>Sport</h2>
-			<div class="desktop_sport">
-				<div class="sport_box sport__box">
-					<img
-						src="https://pixabay.com/get/g033fad0ba7c439a4dd3bea871f7dd2914b9a201f1c0a7efce091f54a0cf7d7fc95e422ab4867bd8b9f38be53354579b85c895eb6c294608c9ddb495f8b653dc0_1920.jpg"
-						alt=""
-					/>
-					<h5>Lorem ipsum dolor sit amet.</h5>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-						possimus ipsa nisi perspiciatis quisquam minima!
-					</p>
-					<span>10/10/2030</span>
+			<div class="box sports">
+				<div>
+					<a href="#"><img src="./assets/olympic-games-1608127_640.png" alt=""></a>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+					<span>10/10/2030 Monday</span>
 				</div>
-				<div class="sport_box sportBox">
+				<div class="ver"></div>
+				<div>
+				</div>
+
+				<div>
+					<ul>
+						<li>
+							<a href="#"><img src="./assets/volleyball-310328.svg" alt=""></a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+							<span>10/10/2030 Monday</span>
+						</li>
+						<li>
+							<a href="#"><img src="./assets/volleyball-310328.svg" alt=""></a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+							<span>10/10/2030 Monday</span>
+						</li>
+						<li>
+							<a href="#"><img src="./assets/volleyball-310328.svg" alt=""></a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+							<span>10/10/2030 Monday</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<article>
+				<img src="./assets/text.gif" alt="">
+			</article>
+			<h2>Culture</h2>
+			<div class="box culture">
+				<div>
+					<ul>
+						<li>
+							<a href="#"><img src="./assets/sushi-154590_640.png" alt=""></a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+							<span>10/10/2030 Monday</span>
+						</li>
+						<li>
+							<a href="#"><img src="./assets/sushi-154590_640.png" alt=""></a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+							<span>10/10/2030 Monday</span>
+						</li>
+						<li>
+							<a href="#"><img src="./assets/sushi-154590_640.png" alt=""></a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+							<span>10/10/2030 Monday</span>
+						</li>
+					</ul>
+				</div>
+				<div class="ver"></div>
+				<div>
+				</div>
+
+				<div>
+					<a href="#"><img src="./assets/sushi-154590_640.png" alt=""></a>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+					<span>10/10/2030 Monday</span>
+				</div>
+			</div>
+			<article>
+				<img src="./assets/text.gif" alt="">
+			</article>
+			<h2>Politics</h2>
+				<div class="box politics">
 					<div>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-						Perspiciatis, error? <br /><span>10/10/2030</span>
+						<ul>
+							<li>
+								<a href="#"><img src="./assets/putin-2980748_640.jpg" alt=""></a>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+								<span>10/10/2030 Monday</span>
+							</li>
+							<li>
+								<a href="#"><img src="./assets/trump-2815558_640.jpg" alt=""></a>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+								<span>10/10/2030 Monday</span>
+							</li>
+							<li>
+								<a href="#"><img src="./assets/america-2025465_640.png" alt=""></a>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+								<span>10/10/2030 Monday</span>
+							</li>
+						</div>
+						<div class="ver"></div>
+						<div>
+						</ul>
 					</div>
 					<div>
-						Lorem ipsum dolor sit amet. <br />
-						<span>10/10/2030</span>
-					</div>
-					<div>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br /><span
-							>10/10/2030</span
-						>
-					</div>
-					<div>
-						Lorem ipsum dolor sit amet. <br />
-						<span>10/10/2030</span>
+						<ul>
+							<li>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+								<a href="#"><button>Read More</button></a>
+								<span>10/10/2030 Monday</span>
+							</li>
+							<li>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+								<a href="#"><button>Read More</button></a>
+								<span>10/10/2030 Monday</span>
+							</li>
+							<li>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque.</p>
+								<a href="#"><button>Read More</button></a>
+								<span>10/10/2030 Monday</span>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</div>
+			</div >
+			<hr>
+			<footer>
+				<div class="footer_logo">
+					<img src="assets/logo.png" alt="">
+				</div>
+				<div class="footer_text">
+					&copy; Copyright
+					<a href="">Terms of Service</a>
+					<a href="">Privacy Policy</a>
+				</div>
+			</footer>
+		<script src="./js/index.js"></script>
 	</body>
 
-	<hr />
-	<footer>
-		<div>
-			<img src="assets/logo.png" alt="" />
-		</div>
-		<div>&copy; Copyright since 2023 ! All rights reserved .</div>
-	</footer>
+
 </html>

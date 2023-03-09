@@ -10,7 +10,6 @@ article {
 }
 
 h2 {
-	position: static;
 	max-width: 30rem;
 
 	font-size: 20px;
@@ -83,7 +82,7 @@ li img {
 	margin-left: 10px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
 	.box {
 		display: flex;
 		flex-direction: row;
@@ -114,7 +113,7 @@ li img {
 	}
 }
 
-@media screen and (min-width: 40rem) {
+ @media screen and (min-width: 40rem) {
 	h2 {
 		font-size: xx-large;
 		padding-bottom: 10px;
@@ -132,7 +131,7 @@ li img {
 	}
 	.box {
 		height: 500px;
-		width: ;
+
 	}
 
 	.article_container {
@@ -140,6 +139,7 @@ li img {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		justify-items: center;
 		align-content: center;
 		margin: 0 auto;
 		width: 80%;
